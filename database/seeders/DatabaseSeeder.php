@@ -25,11 +25,11 @@ class DatabaseSeeder extends Seeder
         // ]);
 
 
+        Warehouse::factory(2)->create();
+        Group::factory(3)->create();
         Counterparty::factory(20)->create();
         Goods::factory(20)->create();
         Service::factory(20)->create();
-        Warehouse::factory(2)->create();
-        Group::factory(2)->create();
 
     }
 }

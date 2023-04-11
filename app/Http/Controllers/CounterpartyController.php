@@ -30,7 +30,7 @@ class CounterpartyController extends Controller
                 $client->save();
             }
         }
-        return $ms->show();
+        return view('add-to-ms');
     }
 
 }
